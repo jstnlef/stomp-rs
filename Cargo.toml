@@ -1,17 +1,17 @@
 [package]
-authors = ["zslayton <zack.slayton@gmail.com"]
+authors = ["zslayton <zack.slayton@gmail.com>", "jstnlef <jstnlefebvre@gmail.com>"]
 description = "A full STOMP 1.2 client implementation. Allows programs to interact with message queueing services like ActiveMQ and RabbitMQ."
 keywords = ["stomp", "mq", "activemq", "rabbitmq", "queue"]
 license = "MIT"
 name = "stomp"
 readme = "README.md"
-repository = "https://github.com/zslayton/stomp-rs"
+repository = "https://github.com/jstnlef/stomp-rs"
 version = "0.12.0"
 
 [dependencies]
 bytes = "0.4"
 futures = "0.1"
-log = "0.3"
+log = "0.4"
 nom = "3.2"
 tokio-core = "0.1"
 tokio-io = "0.1"
